@@ -1,0 +1,54 @@
+.subasta{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button{
+    color: #fff;
+}
+
+.imagen{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion{
+    width: 65%;
+}
+
+.detail{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #004D43;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gosubastas{
+    text-align: end;
+}
+
+.description-subasta{
+    text-align: justify;
+}
+
+.inf-sub{
+    font-size:12px !important; color:grey
+}
